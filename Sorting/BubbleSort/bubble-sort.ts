@@ -10,9 +10,10 @@ function bubbleSort(array: number[]): number[] {
 
   while (!isSorted) {
     isSorted = true;
+
     for (let i = 0; i < array.length - counter - 1; i++) {
       if (array[i] > array[i + 1]) {
-        [array[i], array[i + 1]] = [array[i + 1], array[i]]; // Swap elements
+        swap_elements(i, i + 1, array);
         isSorted = false;
       }
     }
@@ -21,6 +22,13 @@ function bubbleSort(array: number[]): number[] {
 
   return array;
 }
+
+function swap_elements(i: number, j: number, array: number[]) {
+  const temp = array[i];
+  array[i] = array[j];
+  array[j] = temp;
+}
+
 
 // Main function to test sorting in VS Code
 function main(): void {
