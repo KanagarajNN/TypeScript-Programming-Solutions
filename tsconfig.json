@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "outDir": "./dist",
+    "rootDir": "./sorting/bubble-sort/src"
+  },
+  "include": ["sorting/bubble-sort/src/**/*.ts"],
+  "exclude": ["node_modules", "sorting/bubble-sort/tests"]
+}
