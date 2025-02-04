@@ -1,12 +1,12 @@
-
+![TypeScript CI](https://github.com/kanagarajnn/typescript-programming-solutions/actions/workflows/ci-ts.yml/badge.svg)
 
 # TypeScript Programming Solutions
 typescript-programming-solutions is a collection of TypeScript solutions for algorithms, data structures, coding challenges, and interview problems. Optimized for readability, efficiency, and best practices.
 
 # Sorting
 ## 1. Bubble Sort
-- Bubble Sort Code
-- Documentation
+- [Bubble Sort Code](sorting/bubble-sort)
+- [Documentation](sorting/bubble-sort/README.md)
 
 ## 2. Insertion Sort
 - Insertion Sort Code
